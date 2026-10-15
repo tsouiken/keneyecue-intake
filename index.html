@@ -1,0 +1,61 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>KenEyeCue｜紫微眉型報告書 填寫表單</title>
+<style>
+body{margin:0;background:#0A0A0A;color:#F5F3EE;font-family:-apple-system,"PingFang TC","Noto Sans TC",sans-serif;line-height:1.7}
+.w{max-width:640px;margin:0 auto;padding:32px 20px 60px}
+h1{color:#C9A84C;font-weight:600;letter-spacing:2px;margin:0;font-size:26px}.s{color:#C9A84C;opacity:.85;margin:4px 0 20px}
+.sec{border-top:1px solid #C9A84C55;margin-top:28px;padding-top:12px}.sec h2{color:#C9A84C;font-size:17px;margin:0 0 8px}
+label{display:block;margin:16px 0 6px;font-weight:600}small{color:#bbb;font-weight:400;display:block}
+input[type=text],input[type=email],input[type=date],select,textarea{width:100%;box-sizing:border-box;background:#151515;border:1px solid #444;color:#F5F3EE;border-radius:8px;padding:10px;font-size:16px}
+textarea{min-height:80px}.opt{display:block;background:#151515;border:1px solid #333;border-radius:8px;padding:10px;margin:6px 0;font-weight:400}
+.opt b{color:#C9A84C}button{margin-top:28px;width:100%;padding:14px;background:#C9A84C;color:#0A0A0A;border:0;border-radius:8px;font-size:17px;font-weight:700}
+.f{margin-top:30px;color:#999;font-size:13px;text-align:center}
+</style></head><body><div class="w">
+<h1>KenEyeCue 紫微眉型報告書</h1><div class="s">眉，是氣場的形狀。</div>
+<p>感謝你的訂購（NT$2,800）。請完整填寫以下資料，我會依你的命盤、眉型與你最在意的場合，為你寫一份專屬報告。</p>
+<form id="f" action="https://formsubmit.co/keneyecue@gmail.com" method="POST" enctype="multipart/form-data">
+<input type="hidden" name="_subject" value="【新報告訂單】紫微眉型報告書">
+<input type="hidden" name="_template" value="table"><input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_next" value="https://tsouiken.github.io/keneyecue-intake/thanks.html">
+<input type="text" name="_honey" style="display:none">
+<div class="sec"><h2>一、基本資料</h2>
+<label>稱呼 *</label><input type="text" name="稱呼" required>
+<label>國曆生日 *</label><input type="date" name="國曆生日" required>
+<label>出生時間 *<small>越準越好；不確定請寫大概時段，例如「早上 7–9 點」「傍晚」</small></label><input type="text" name="出生時間" required>
+<label>出生地 *<small>縣市即可</small></label><input type="text" name="出生地" required>
+<label>性別 *</label><select name="性別" required><option value="">請選擇</option><option>女</option><option>男</option><option>不便透露</option></select></div>
+<div class="sec"><h2>二、照片</h2>
+<label>正面素顏照 *<small>自然光、瀏海撥開、眉毛完整露出</small></label><input type="file" name="attachment_素顏照" accept="image/*" required>
+<label>平常妝容／修眉後的正面照 *</label><input type="file" name="attachment_妝容照" accept="image/*" required></div>
+<div class="sec"><h2>三、你最在意的事</h2>
+<label>你最常被別人誤會成什麼樣的人？ *<small>例如：很兇、很冷、好欺負、難親近</small></label><textarea name="最常被誤會成" required></textarea>
+<label>你最想讓別人第一眼覺得你是什麼樣的人？ *</label><textarea name="最想給人的第一印象" required></textarea>
+<label>未來三個月最重要的場合 *</label><select name="最重要的場合" required><option value="">請選擇</option><option>面試</option><option>相親／約會</option><option>談客戶</option><option>上台</option><option>拍照</option><option>其他</option></select>
+<label>（選「其他」請說明）</label><input type="text" name="場合補充">
+<label>目前眉毛處理方式 *</label><select name="眉毛處理方式" required><option value="">請選擇</option><option>自己修</option><option>紋繡</option><option>霧眉</option><option>不處理</option></select>
+<label>有沒有絕對不想改的地方？<small>沒有可留白</small></label><textarea name="絕對不想改的地方"></textarea></div>
+<div class="sec"><h2>四、選擇你的報告風格</h2>
+<label>報告語氣 *</label>
+<label class="opt"><input type="radio" name="報告語氣" value="溫柔陪伴型" required> <b>溫柔陪伴型</b>｜像朋友聊天，先理解你，再慢慢給建議</label>
+<label class="opt"><input type="radio" name="報告語氣" value="直白犀利型"> <b>直白犀利型</b>｜不繞圈，直接點出問題和該怎麼改</label>
+<label class="opt"><input type="radio" name="報告語氣" value="專業分析型"> <b>專業分析型</b>｜完整說明命盤與眉型的對應邏輯</label>
+<label class="opt"><input type="radio" name="報告語氣" value="精簡重點型"> <b>精簡重點型</b>｜一頁看懂，只留最重要的結論與動作</label>
+<label>報告視覺風格 *</label>
+<label class="opt"><input type="radio" name="視覺風格" value="黑金典雅" required> <b>黑金典雅</b>｜沉穩有質感</label>
+<label class="opt"><input type="radio" name="視覺風格" value="簡約米白"> <b>簡約米白</b>｜乾淨好讀</label>
+<label class="opt"><input type="radio" name="視覺風格" value="柔和粉霧"> <b>柔和粉霧</b>｜溫柔細緻</label></div>
+<div class="sec"><h2>五、交付與訂單</h2>
+<label>LINE ID<small>LINE 或 Email 至少填一個</small></label><input type="text" name="LINE_ID" id="line">
+<label>Email</label><input type="email" name="email" id="mail">
+<label>Portaly 訂單編號 *</label><input type="text" name="Portaly訂單編號" required></div>
+<div class="sec"><h2>六、同意事項</h2>
+<label class="opt"><input type="checkbox" name="同意事項" value="同意" required> 我了解本報告為紫微斗數與面相的象徵性自我觀察，不是科學預測，也不保證任何結果。 *</label></div>
+<button type="submit" id="b">送出資料</button></form>
+<div class="f">有問題請聯絡 LINE：@102sejct｜keneyecue@gmail.com<br>KenEyeCue</div></div>
+<script>
+async function shrink(file){if(!file||file.size<1.5e6)return file;const img=await createImageBitmap(file);const m=1600,r=Math.min(1,m/Math.max(img.width,img.height));
+const c=document.createElement('canvas');c.width=img.width*r;c.height=img.height*r;c.getContext('2d').drawImage(img,0,0,c.width,c.height);
+const b=await new Promise(res=>c.toBlob(res,'image/jpeg',.85));return new File([b],file.name.replace(/\.\w+$/,'')+'.jpg',{type:'image/jpeg'});}
+document.querySelectorAll('input[type=file]').forEach(i=>i.addEventListener('change',async()=>{try{const nf=await shrink(i.files[0]);if(nf!==i.files[0]){const d=new DataTransfer();d.items.add(nf);i.files=d.files;}}catch(e){}}));
+document.getElementById('f').addEventListener('submit',e=>{if(!line.value.trim()&&!mail.value.trim()){e.preventDefault();alert('請至少填寫 LINE ID 或 Email，報告才能交付給你。');return;}b.disabled=true;b.textContent='送出中…請稍候';});
+</script></body></html>

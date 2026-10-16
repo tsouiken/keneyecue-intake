@@ -54,9 +54,10 @@ textarea{min-height:80px}.opt{display:block;background:#151515;border:1px solid 
 <label>Email</label><input type="email" name="email" id="mail">
 <label>Portaly 訂單編號 *</label><input type="text" name="Portaly訂單編號" required></div>
 <div class="sec"><h2>六、同意事項</h2>
-<label class="opt"><input type="checkbox" name="同意事項" value="同意" required> 我了解本報告為紫微斗數與面相的象徵性自我觀察，不是科學預測，也不保證任何結果。 *</label></div>
+<label class="opt"><input type="checkbox" name="同意事項" value="同意" required> 我了解本報告為紫微斗數與面相的象徵性自我觀察，不是科學預測，也不保證任何結果。 *</label>
+<small style="margin-top:8px">你的資料與照片只用來製作這份報告，不會公開或用於廣告；想刪除資料，隨時在 LINE 跟我說。</small></div>
 <button type="submit" id="b">送出資料</button></form>
-<div class="f">有問題請聯絡 LINE：@102sejct｜keneyecue@gmail.com<br>KenEyeCue</div></div>
+<div class="f">有問題請聯絡 <a href="https://line.me/R/ti/p/@102sejct" style="color:#C9A84C">LINE：@102sejct（點我加好友）</a>｜keneyecue@gmail.com<br>KenEyeCue</div></div>
 <script>
 async function shrink(file){if(!file||file.size<1.5e6)return file;const img=await createImageBitmap(file);const m=1600,r=Math.min(1,m/Math.max(img.width,img.height));
 const c=document.createElement('canvas');c.width=img.width*r;c.height=img.height*r;c.getContext('2d').drawImage(img,0,0,c.width,c.height);
